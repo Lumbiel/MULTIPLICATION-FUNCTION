@@ -1,0 +1,10 @@
+int multiplication(int N1, int N2) {
+	int multiplication = N1 * N2;
+	return multiplication;
+}
+
+int main(){
+    int result = multiplication(2,4);
+	printf("result = %d", result);
+	return 0;
+}
